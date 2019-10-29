@@ -1,0 +1,139 @@
+@keyframes a {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes b {
+  0% {
+    background: radial-gradient(#808080, #000000);
+  }
+  25% {
+    background: radial-gradient(#ff0000, #ff7f50);
+  }
+  50% {
+    background: radial-gradient(#00ffff, #00ff00);
+  }
+  75% {
+    background: radial-gradient(#ff7f50, #ff0000);
+  }
+  100% {
+    background: radial-gradient(#00ff00, #00ffff);
+  }
+}
+
+body {
+  background-image: url(./1.jpg);
+  color: #000000;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#image-profile-container {
+  animation-name: b;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background: radial-gradient(#808080, #000000);
+  padding: 100px 0;
+}
+
+#image-profile {
+  animation-duration: 10s;
+  animation-name: a;
+  animation-iteration-count: infinite;
+  background-image: url(https://justanaivedreamer.files.wordpress.com/2018/07/11.png);
+  background-position: center;
+  background-clip: content-box;
+  background-size: cover;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+article {
+  box-sizing: border-box;
+  margin: 0 50px 0;
+  padding: 50px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.card {
+  background: #ffffff;
+  border-top: 6px solid blue;
+  border-right: 6px solid blue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+  border-radius: 50px;
+  box-shadow: #000000 5px 8px 8px;
+  box-sizing: border-box;
+  font-family: arial;
+  padding: 50px;
+  overflow: auto;
+  width: 25%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card > img {
+  height: auto;
+  width: 200px;
+}
+
+contact {
+  display: block;
+  font-style: italic;
+  margin: 15px;
+  text-align: center;
+}
+
+#card-1:hover {
+  background-color: rgba(80, 80, 80, 1);
+}
+
+#card-2:hover {
+  background-color: rgba(128, 128, 128, 1);
+}
+
+#card-3:hover {
+  background-color: rgba(176, 176, 176, 1);
+}
