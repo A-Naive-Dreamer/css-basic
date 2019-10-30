@@ -105,9 +105,10 @@ article {
   box-shadow: #000000 5px 8px 8px;
   box-sizing: border-box;
   font-family: arial;
+  margin: 25px 0;
   padding: 50px;
   overflow: auto;
-  width: 25%;
+  width: 300px;
 }
 
 .card:hover {
@@ -119,11 +120,16 @@ article {
   width: 200px;
 }
 
-contact {
+address {
   display: block;
   font-style: italic;
   margin: 15px;
   text-align: center;
+}
+
+.media-icons {
+  height: auto;
+  width: 50px;
 }
 
 #card-1:hover {
