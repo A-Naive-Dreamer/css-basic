@@ -29,7 +29,7 @@
 }
 
 body {
-  background-image: url(./1.jpg);
+  background-image: url(./images/background.jpg);
   color: #000000;
 }
 
@@ -84,7 +84,6 @@ h3 {
 
 article {
   box-sizing: border-box;
-  margin: 0 50px 0;
   padding: 50px;
 }
 
@@ -142,4 +141,14 @@ address {
 
 #card-3:hover {
   background-color: rgba(176, 176, 176, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  font-weight: 900;
 }
